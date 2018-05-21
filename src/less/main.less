@@ -1,0 +1,372 @@
+@font-face {
+    font-family: Tahoma-regular;
+    src: url(../fonts/Tahoma-regular.ttf);
+}
+@font-face {
+    font-family: Tahoma-bold;
+    src: url(../fonts/Tahoma-bold.ttf);
+}
+@font-face {
+    font-family: Georgia-regular;
+    src: url(../fonts/Georgia-regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+.wrapper {
+    max-width: 981px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    height: 456px;
+    background: url(../images/fon-header.png) no-repeat;
+    box-sizing: content-box;
+    position: relative;
+
+    &-contacts {
+        width: 32.93%;
+    }
+
+    &-logo__images {
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #0f57a4;
+    }
+
+}
+.car-header {
+    position: absolute;
+    right: 0;
+
+    img {
+        width: 100%;
+    }
+}
+.logo {
+    width: 100%;
+}
+.phone-picture, .phone-text  {
+    margin-top: 26px;
+    width: 23%;
+    display: inline-block;
+}
+.phone-text {
+    display: inline-block;
+    width: 77%;
+    text-align: right;
+    
+
+    &__text-small {
+        line-height: 20px;
+        vertical-align: top;
+        font-family: Tahoma-regular;
+        font-size: 1em;
+        color: #347cc9;
+    }
+
+    &__text-big {
+        line-height: 36px;
+        margin-left: 3px;
+        font-family: Tahoma-bold;
+        font-size: 1.875em;
+        color: #0f57a4;
+    }
+}
+.phone {
+    width: 100%;
+
+    &-back {
+        font-family: Tahoma-regular;
+        font-size: 0.75em;
+        color: #347cc9;
+    }
+}
+.sidebar {
+    display: inline-block;
+    width: 26.5%;
+}
+.nav-sidebar {
+    padding-left: 20px;
+    margin-top: 32px;
+
+    &__item {
+        list-style-type: none;
+        margin-bottom: 15px;
+        text-decoration: underline;
+        font-family: Tahoma-regular;
+        font-size: 1em;
+        color: #245ba2;
+
+        &:last-child {
+            margin-bottom: 30px;
+        }
+    }
+
+    &-link {
+        color: #004b9b;
+        text-decoration: none;
+    }
+}
+.feedback{
+    margin: 0 auto 20px auto;
+    background: #e6e6e6;
+    width: 92.3%;
+
+    &__header-text {
+        color: #004b9b;
+        font-size: 1.5em;
+        font-family: Georgia-regular;
+        display: inline-block;
+        width: 65%;
+        text-align: center;
+    }
+
+    &__header-image {
+        margin-left: 10px;
+    }
+}
+.input-text {
+    height: 20px;
+    margin: 10px 0; 
+    text-align: left;
+    width: 98%;
+
+    &-area {
+        margin: 10px 0; 
+        width: 98%;
+        height: 120px;
+    }
+}
+.form-feedback p {
+    margin: 0 auto;
+    width: 91.66%
+}
+.name-input {
+    font-family: Tahoma-regular;
+    font-size: 0.875em;
+    color: #444444;
+}
+.button-feedback {
+    width: 50%;
+    height: 30px;
+    background: #727272;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sidebar__banner {
+    width: 84.61%;
+    margin: 0 auto;
+
+    &-img {
+        margin-bottom: 20px;
+    }
+}
+.sidebar__partners {
+    width: 84.61%;
+    margin: 0 auto;
+
+    &-header {
+        font-family: Georgia-regular;
+        font-size: 1.5em;
+        color: #004b9b;
+        text-align: center;
+    }
+
+    &-img {
+        display: block;
+        margin: 0 auto 27px auto;
+    }
+}
+.content {
+    vertical-align: top;
+    display: inline-block;
+    width: 71.35%;
+    margin-bottom: 50px;
+
+    &-menu {
+        width: 100%;
+        height: 42px;
+        background: #1a4787;
+        margin: 0 0 30px 0;
+        padding: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        &__item {
+            margin-left: 6.57%;
+            display: inline-block;
+        }
+
+        &-link {
+            line-height: 42px;
+            padding: 11px 0;
+            font-family: Tahoma regular;
+            font-size: 1em;
+            color:#fff;
+        }
+    }
+}
+.promotions-and-special-offers {
+    padding-left: 21px;
+}
+.promotions-header {
+    display: inline-block;
+
+    &__icon {
+        vertical-align: middle;
+    }
+
+    .header-text {
+        font-family: Georgia-bold;
+        font-size: 1.5em;
+        color: #1a4787;
+        font-weight: 700;
+    }
+
+}
+.winter-promotions {
+    font-family: Georgia-regular;
+        font-size: 1.5em;
+        color: #1a4787;
+        margin: 30px 0 30px 0;
+
+        &-date {
+            font-size: 0.75em;
+        }
+}
+.promotions-menu {
+    padding: 0;
+    margin: 0;
+
+    &__item {
+        list-style-type: none;
+        margin-top: 30px;
+        .main-text;
+        
+    }
+}
+.price {
+    .main-text;
+    color: #ed1c24;
+}
+.main-text {
+    font-family: Tahoma-regular;
+    font-size: 0.75em;
+    color: #444444;
+    line-height: 20px;
+}
+.header-text {
+    margin: 40px 0 30px 0;
+}
+.autonomous-gasification__service {
+    .main-text;
+}
+.service-menu {
+    margin: 0;
+    padding-left: 20px;
+
+    &__item {
+        margin-left: 20px;
+        .main-text;
+    }
+}
+.Boiler-equipment-desc {
+    .main-text;
+}
+.header-table {
+    .main-text;
+}
+.power {
+    width: 38.57%;
+    height: 210px;
+    text-align: center;
+    padding: 0;
+    border-spacing: 0;
+    .main-text;
+    th {
+        background:#1a4787;
+        color: #fff;
+    }
+    tr:nth-child(2n+3) {
+        background: #e6e6e6;
+    }
+}
+.advantages {
+    .main-text;
+}
+.price-tab {
+    width: 71.42%;
+    height: 120px;
+    padding: 0;
+    border-spacing: 0;
+    .main-text;
+
+    th:first-child {
+        width: 50px;
+        text-align: center;
+    }
+
+    th {
+        text-align: left;
+        background:#1a4787;
+        color: #fff;
+
+       
+    }
+    tr:nth-child(2n+3) {
+        background: #e6e6e6;
+    }
+    td:nth-child(3n+1) {
+        text-align: center;
+    }
+}
+.footer {
+    position: relative;
+    border-radius: 15px 15px 0  0;
+    height: 180px;
+    background: #1a4787;
+
+    &__image {
+        position: absolute;
+        right: 0;
+        top: -20px;
+
+        img {
+            display: block;
+        }
+    }              
+}
+.content-menu--footer {
+    width: 70%;
+    padding: 30px 0 0 10px;
+    border-radius: 15px 15px 0  0;
+    margin: 0;
+}
+
+.content-menu-link--footer {
+    padding: 0 10px 0 10px;
+    border-right: #fff 1px solid;
+}
+.footer-contact {
+    .main-text;
+    color: #fff;
+    margin: 0;
+    padding-left: 20px; 
+
+    &:last-child {
+        margin: 10px 0;
+    }
+
+    &-link {
+        color: #81b5ff;
+    }
+}

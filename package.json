@@ -1,0 +1,32 @@
+{
+  "name": "astin-grupp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-files-sync": "^0.3.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-less": "^3.5.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "fontmin": "^0.9.6",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-file-sync": "^2.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pixrem": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-pngquant": "^5.1.0"
+  }
+}
